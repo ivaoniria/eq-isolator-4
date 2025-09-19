@@ -1,12 +1,15 @@
 # EQIsolator4
 
-A 3-band EQ isolator VST3 plugin built with JUCE and CMake.
+A 4-band EQ isolator VST3 plugin built with JUCE and CMake.
 
 <img width="580" height="330" alt="EQIsolator4" src="https://github.com/user-attachments/assets/25b6a70d-8ea2-4daa-9f78-3b00ff78a315" />
 
 ## Description
 
 EQIsolator4 is a 4-band equalizer isolator that lets you control the gain of low, mid, and high frequency bands with individual bypass options for each band.
+
+> **⚠️ BETA NOTICE:**  
+> This plugin is currently in **BETA**. There are known issues with gain boosting, digital saturation, and clipping in the **Hi** and **Mid** channels. Use with caution in production environments.
 
 ### Features
 - 4-band EQ isolation (Low, Mid, High)
