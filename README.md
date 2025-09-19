@@ -51,6 +51,15 @@ After building, the VST3 plugin will be located in:
 Copy the .vst3 file to your VST3 plugins directory:
 - Windows: `C:\Program Files\Common Files\VST3`
 
+## Quick test (no build needed)
+
+If you just want to try the plugin without compiling:
+
+- Use the prebuilt static bundle located at `dist/EQIsolator4.vst3` (created by running `static_build.bat`).
+- Copy the `EQIsolator4.vst3` folder to `C:\Program Files\Common Files\VST3`.
+- Open your DAW (Ableton Live 10/11/12, etc.) and rescan VST3 plugins.
+- The static build is 64-bit and does not require JUCE or the Visual C++ Redistributable on the target machine.
+
 ## Usage
 
 1. Load the plugin in your favorite DAW (like Ableton Live)

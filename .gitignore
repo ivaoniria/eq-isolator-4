@@ -73,3 +73,19 @@ build_static/
 *.ilk
 *.tlog
 *.log
+
+# Archives and packages
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# OS/Editor misc
+~$*
+*.tmp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
