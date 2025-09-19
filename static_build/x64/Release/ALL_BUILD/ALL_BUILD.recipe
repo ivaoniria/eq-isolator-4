@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\audio-plugins-dev\proyects\EQMixerPro\EQIsolator4\static_build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\audio-plugins-dev\proyects\EQMixerPro\EQIsolator4\static_build\Release\EQIsolator4_vst3_helper.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\audio-plugins-dev\proyects\EQMixerPro\EQIsolator4\static_build\VST3\VST3\EQIsolator4.vst3\Contents\x86_64-win\EQIsolator4.vst3</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\audio-plugins-dev\proyects\EQMixerPro\EQIsolator4\static_build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

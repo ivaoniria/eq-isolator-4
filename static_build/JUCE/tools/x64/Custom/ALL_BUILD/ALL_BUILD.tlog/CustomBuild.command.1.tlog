@@ -1,0 +1,10 @@
+^C:\AUDIO-PLUGINS-DEV\TOOLS\JUCE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/audio-plugins-dev/tools/JUCE -BC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/JUCE/tools --check-stamp-file C:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/JUCE/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

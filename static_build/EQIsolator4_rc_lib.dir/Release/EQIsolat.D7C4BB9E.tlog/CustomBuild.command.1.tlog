@@ -1,0 +1,20 @@
+^C:\AUDIO-PLUGINS-DEV\PROYECTS\EQMIXERPRO\EQISOLATOR4\STATIC_BUILD\CMAKEFILES\9D2DB7EA5ECDC30B15772838B8BD2873\EQISOLATOR4_RESOURCES.RC.RULE
+setlocal
+JUCE\tools\extras\Build\juceaide\juceaide_artefacts\Custom\juceaide.exe rcfile C:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/EQIsolator4_artefacts/JuceLibraryCode/Info.txt C:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/EQIsolator4_artefacts/JuceLibraryCode/EQIsolator4_resources.rc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\AUDIO-PLUGINS-DEV\PROYECTS\EQMIXERPRO\EQISOLATOR4\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4 -BC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build --check-stamp-file C:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

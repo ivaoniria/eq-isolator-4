@@ -1,0 +1,10 @@
+^C:\AUDIO-PLUGINS-DEV\PROYECTS\EQMIXERPRO\EQISOLATOR4\STATIC_BUILD\CMAKEFILES\C9671E9AD08D6759B2AA4128B769C315\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4 -BC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/EQIsolator4.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

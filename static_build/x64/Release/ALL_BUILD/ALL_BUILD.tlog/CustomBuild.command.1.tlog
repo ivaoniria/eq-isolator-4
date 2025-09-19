@@ -1,0 +1,10 @@
+^C:\AUDIO-PLUGINS-DEV\PROYECTS\EQMIXERPRO\EQISOLATOR4\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4 -BC:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build --check-stamp-file C:/audio-plugins-dev/proyects/EQMixerPro/EQIsolator4/static_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

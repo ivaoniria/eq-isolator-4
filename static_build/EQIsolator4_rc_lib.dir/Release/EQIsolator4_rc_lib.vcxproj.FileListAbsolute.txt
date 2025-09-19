@@ -1,0 +1,1 @@
+C:\audio-plugins-dev\proyects\EQMixerPro\EQIsolator4\static_build\EQIsolator4_rc_lib.dir\Release\EQIsolator4_rc_lib.lib
