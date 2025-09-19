@@ -59,3 +59,17 @@ Thumbs.db
 
 # JUCE (no subir, es una dependencia externa)
 ../tools/JUCE/
+
+# Distribution and static build artifacts
+dist/
+static_build/
+build_static/
+
+# Additional MSVC intermediates
+*.pdb
+*.ipdb
+*.iobj
+*.exp
+*.ilk
+*.tlog
+*.log
