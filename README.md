@@ -1,6 +1,7 @@
 # EQIsolator3
 
 A 3-band EQ isolator VST3 plugin built with JUCE and CMake.
+<img width="580" height="330" alt="EQIsolator4" src="https://github.com/user-attachments/assets/25b6a70d-8ea2-4daa-9f78-3b00ff78a315" />
 
 ## Description
 
