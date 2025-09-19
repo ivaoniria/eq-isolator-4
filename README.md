@@ -6,10 +6,10 @@ A 3-band EQ isolator VST3 plugin built with JUCE and CMake.
 
 ## Description
 
-EQIsolator3 is a 3-band equalizer isolator that lets you control the gain of low, mid, and high frequency bands with individual bypass options for each band.
+EQIsolator4 is a 4-band equalizer isolator that lets you control the gain of low, mid, and high frequency bands with individual bypass options for each band.
 
 ### Features
-- 3-band EQ isolation (Low, Mid, High)
+- 4-band EQ isolation (Low, Mid, High)
 - Per-band gain control (-100 dB to +24 dB)
 - Per-band bypass options
 - Minimal, easy-to-use interface
